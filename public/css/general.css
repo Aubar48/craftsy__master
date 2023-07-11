@@ -11,7 +11,8 @@
 
 a {
   text-decoration: none;
-  color: black;
+  color: white;
+  text-transform: uppercase;
 }
 
 li {
