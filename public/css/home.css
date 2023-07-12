@@ -5,11 +5,11 @@
   flex-wrap: wrap;
   justify-content: space-between;
   background-color: orangered;
-  margin-bottom: 10px;
+  margin-bottom: 13px;
 }
 .home__header__nav--menu ul li {
   padding: 5px;
-  text-transform: uppercase;
+  font-size: small;
 }
 
 /*MAIN*/
@@ -37,7 +37,6 @@
 }
 
 /*ASIDE*/
-
 .home__main__section__aside {
   display: flex;
   flex-direction: column;
@@ -48,20 +47,18 @@
   flex-wrap: wrap;
   justify-content: center;
   padding: 10px;
-  
+  border: 1px solid var(--celeste);
   background-color: white;
   margin-bottom: 10px;
 }
 .home__main__section__aside--box {
   padding: 10px;
-  
+  border: 1px solid var(--celeste);
   background-color: white;
-  margin-bottom: 10px;
 }
 
 .home__main__section__aside--box2 {
   padding: 0px 10px 10px 10px;
-  
   background-color: white;
 }
 
@@ -79,6 +76,7 @@
 }
 .home__footer__nav--menu ul li {
   padding: 5px;
+  font-size: small;
 }
 
 @media (min-width: 600px) {
@@ -88,7 +86,6 @@
   }
   .home__header__nav--menu ul li {
     padding: 5px;
-    text-transform: uppercase;
     font-size: larger;
   }
   /*  MAIN */
@@ -133,7 +130,7 @@
   .home__main__section__aside--image {
     margin-left: 10px;
   }
-  .home__main__section__aside--description{
+  .home__main__section__aside--description {
     font-size: larger;
   }
   .home__main__section__aside--box2 {
@@ -148,60 +145,61 @@
   .home__footer__nav--menu {
     margin-bottom: 0;
     padding: 20px 10px;
-    font-size: larger;
+  }
+  .home__footer__nav--menu ul li {
+    font-size: large;
   }
 }
 
 @media (min-width: 1180px) {
   /*  HEADER */
-  
+  .home__header {
+  }
   .home__header__nav--menu {
-    
   }
   .home__header__nav--menu ul li {
-   
-    
   }
   /*  MAIN */
+  .home__main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
   .home__main--box {
-    
+    width: 60vh;
   }
   .home__main__section__article {
-   
+    padding: 0;
   }
   .home__main__section__article--image {
-    
+    padding: 0;
   }
   .home__main__section__article--title {
-    
+    padding: 0;
   }
   .home__main__section__article--description {
-    
+    padding: 0;
   }
   .home__main__section__article--more {
-   
+    margin: 0 0 5px 0;
   }
   /*  ASIDE */
   .home__main__section__aside {
-   
+    width: 40vh;
+    display: flex;
   }
   .home__main__section__aside--titulo {
-    
   }
   .home__main__section__aside--box {
-    
   }
   .home__main__section__aside--image {
-   
   }
-  .home__main__section__aside--description{
-   
+  .home__main__section__aside--description {
   }
   .home__main__section__aside--box2 {
-  
   }
   /*  FOOTER */
-  .home__footer__nav--menu {
-    
+  .home__footer__nav--menu ul li {
+    font-size: large;
   }
 }
