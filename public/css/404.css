@@ -1,25 +1,23 @@
 #element {
-  margin-top: 10px;
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
+  flex-direction: row;
   justify-content: center;
   font-size: 3rem;
-  text-decoration: bold;
 }
 
-.home__main__section404 {
+.home__main404__section404 {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
+  flex-direction: row;
   justify-content: center;
 }
 
-.home__main__section404 img {
-  height: 530px;
+.home__main404__section404 img {
+  height: 568px;
 }
-.home__main__section404 {
-  animation: move 6s cubic-bezier(1, 1, 1, 1) infinite alternate;
+.home__main404__section404 {
+  animation: move 6s cubic-bezier(0.8, 0.8, 0.8, 0.8) infinite alternate;
 }
 
 @keyframes move {

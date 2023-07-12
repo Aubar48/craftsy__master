@@ -158,6 +158,7 @@
   .home__header__nav--menu {
   }
   .home__header__nav--menu ul li {
+    text-decoration: none;
   }
   /*  MAIN */
   .home__main {
