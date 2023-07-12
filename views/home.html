@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
+    <script src="https://kit.fontawesome.com/53932b54f0.js" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
     <link rel="stylesheet" href="/css/styles.css">
     <link rel="shortcut icon" href="/img/logo.png" type="image/x-icon">
@@ -12,20 +13,23 @@
 
 <body class="home">
     <header class="home__header">
-        <nav class="home__header__nav--menu">
-            <figure class="home__header--box-logo">
-                <a href="/"><img class="home__header--logo" src="/img/logo.png" alt="logo_kitchening"></a>
-            </figure>
-            <ul>
-                <li id="btn__active1"><a href="">Smartphone</a></li>
-                <li id="btn__active2"><a href="">Tablets</a></li>
-                <li id="btn__active3"><a href="">Computadoras</a></li>
-            </ul>
+        <div class="home__header--box">
+            <a href="/"><img src="/img/logo.png" alt="logo_kitchening"></a>
+            <nav class="home__header__nav--menu">
+                <ul>
+                    <li id="btn__active1"><a href="">Smartphone</a></li>
+                    <li id="btn__active2"><a href="">Tablets</a></li>
+                    <li id="btn__active3"><a href="">Computadoras</a></li>
+                </ul>
+            </nav>
+        </div>
+        <nav class="home__header__nav--usuario">
             <ul>
                 <li id="btn__active4"><a href="">Login</a></li>
                 <li id="btn__active5"><a href="">Registro</a></li>
             </ul>
         </nav>
+        <a href="" class="home__header--bars"><i class="fa fa-bars fa-lg"></i></a>
     </header>
 
     <main class="home__main">
@@ -98,7 +102,7 @@
 
         </div>
 
-        <div class="home__main__section__aside">
+        <div class="home__main__section">
             <aside class="home__main__section__aside">
                 <h2 class="home__main__section__aside--titulo">
                     Tutoriales
@@ -121,9 +125,8 @@
                 </div>
 
             </aside>
-
             <aside class="home__main__section__aside">
-                <h2 class="home__main__section__aside--titulo">
+                <h2 class="home__main__section__aside--titulo2">
                     Publicidad
                 </h2>
                 <div class="home__main__section__aside--box2">
@@ -133,26 +136,14 @@
             </aside>
         </div>
 
-
-
     </main>
     <footer class="home__footer">
-
-        <nav class="home__footer__nav--menu">
-            <figure class="home__footer--box-logo">
-                <a href="/"><img class="home__header--logo" src="/img/logo.png" alt="logo_kitchening"></a>
-            </figure>
-            <ul>
-                <li id="btn__active1"><a href="">Smartphone</a></li>
-                <li id="btn__active2"><a href="">Tablets</a></li>
-                <li id="btn__active3"><a href="">Computadoras</a></li>
-            </ul>
-            <ul>
-                <li id="btn__active4"><a href="">Login</a></li>
-                <li id="btn__active5"><a href="">Registro</a></li>
-            </ul>
-        </nav>
+        <div class="home__footer--box">
+            <a href="/"><img src="/img/logo.png" alt="logo_kitchening"></a>
+        </div>
+        <a href="" class="home__footer--bars">Craftsy - playOnCave 2023</a>
     </footer>
+
     <script src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js"></script>
     <script src="/js/home.js"></script>
 </body>
