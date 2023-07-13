@@ -11,11 +11,11 @@ if (document.title === "Home") {
     }, 1000)
 }
 
-if (document.title === "404") {
+if (document.title === "404 PAGE NO FOUND") {
     setInterval(() => {
         document.title =
             alertShow ? "Craftsy"
-                : "404"
+                : "404 PAGE NO FOUND"
 
         alertShow = !alertShow
     }, 1000)
