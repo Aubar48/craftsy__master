@@ -33,7 +33,6 @@
 }
 .home__main__section__article--more {
   padding: 10px;
-  margin: 10px;
   background-color: var(--colorNaranja);
   font-size: 1.2rem;
 }
@@ -224,6 +223,7 @@
   .home__main__section__aside--box2 {
     gap: 10px;
   }
+  
   /*  FOOTER */
   .home__footer {
     display: flex;
