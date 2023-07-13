@@ -13,6 +13,9 @@
   display: none;
 }
 /*MAIN*/
+.home__main--box {
+  background-color: white;
+}
 .home__main__section__article {
   display: flex;
   flex-wrap: wrap;
@@ -95,6 +98,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    background-color: white;
   }
   .home__main__section__article {
     width: 45%;
