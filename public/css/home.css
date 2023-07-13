@@ -5,7 +5,9 @@
   align-items: center;
   margin-bottom: 13px;
   background-color: var(--colorNaranja);
+  border-radius: 0 0 30px 30px;
 }
+
 .home__header__nav--menu,
 .home__header__nav--usuario {
   display: none;
@@ -22,11 +24,13 @@
 .home__main__section__article--title,
 .home__main__section__article--description {
   padding: 10px;
+  font-size: 1.2rem;
 }
 .home__main__section__article--more {
   padding: 10px;
   margin: 10px;
   background-color: var(--colorNaranja);
+  font-size: 1.2rem;
 }
 /*ASIDE*/
 .home__main__section__aside {
@@ -50,6 +54,10 @@
   border: 1px solid var(--colorCeleste);
   background-color: white;
 }
+.home__main__section__aside--description {
+  padding-top: 10px;
+  font-size: 1.2rem;
+}
 .home__main__section__aside--box2 {
   padding: 0px 10px 10px 10px;
   background-color: white;
@@ -64,6 +72,7 @@
   align-items: center;
   background-color: var(--colorNaranja);
   margin-top: 10px;
+  border-radius: 30px 30px 0 0;
 }
 @media (min-width: 600px) {
   /*  HEADER */
@@ -73,6 +82,7 @@
     align-items: center;
     margin-bottom: 13px;
     background-color: var(--colorNaranja);
+    border-radius: 0 0 30px 30px;
   }
   .home__header__nav--menu {
     display: none;
@@ -98,6 +108,7 @@
   .home__main__section__article--title,
   .home__main__section__article--description {
     padding: 10px;
+    font-size: 1.1rem;
   }
   /*  ASIDE */
   .home__main__section__aside {
@@ -117,7 +128,7 @@
     margin-left: 10px;
   }
   .home__main__section__aside--description {
-    font-size: larger;
+    font-size: 1.2rem;
   }
   .home__main__section__aside--box2 {
     display: flex;
@@ -131,6 +142,7 @@
     flex-direction: column;
     align-items: center;
     margin-top: 10px;
+    border-radius: 30px 30px 0 0;
   }
 }
 @media (min-width: 1180px) {
@@ -141,6 +153,7 @@
     justify-content: space-between;
     margin-bottom: 13px;
     margin-top: 10px;
+    border-radius: 0 0 30px 30px;
   }
   .home__header--box {
     display: flex;
@@ -173,13 +186,20 @@
     justify-content: space-between;
   }
   .home__main--box {
-    width: 60vh;
+    width: 70vh;
+    background-color: white;
   }
+
   .home__main__section__article,
   .home__main__section__article--image,
   .home__main__section__article--title,
   .home__main__section__article--description {
     padding: 0;
+    font-size: 1.2rem;
+  }
+  .home__main__section__article--image {
+    border: 1px solid black;
+    box-shadow: 4px 4px 4px black;
   }
   .home__main__section__article--more {
     margin: 0 0 5px 0;
@@ -197,6 +217,10 @@
     margin-top: 40px;
     margin-bottom: 20px;
   }
+  .home__main__section__aside--description {
+    padding: 0;
+    font-size: 1.1rem;
+  }
   .home__main__section__aside--box2 {
     gap: 10px;
   }
@@ -206,5 +230,6 @@
     flex-direction: column;
     align-items: center;
     margin-top: 10px;
+    border-radius: 30px 30px 0 0;
   }
 }

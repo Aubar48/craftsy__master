@@ -21,6 +21,26 @@ if (document.title === "404") {
     }, 1000)
 }
 
+if (document.title === "Login") {
+    setInterval(() => {
+        document.title =
+            alertShow ? "Craftsy"
+                : "Login"
+
+        alertShow = !alertShow
+    }, 1000)
+}
+
+if (document.title === "Register") {
+    setInterval(() => {
+        document.title =
+            alertShow ? "Craftsy"
+                : "Register"
+
+        alertShow = !alertShow
+    }, 1000)
+}
+
 //change color de las etiqueta a al pasar por encima de ellas
 
 $("a").mouseenter(elem => {
@@ -34,5 +54,15 @@ $("a").mouseleave(elem => {
 document.addEventListener("DOMContentLoaded", function () {
     new TypeIt("#element", {
         strings: ["ERROR 404, PAGE NOT FOUND!"],
+    }).go();
+});
+document.addEventListener("DOMContentLoaded", function () {
+    new TypeIt("#element__login", {
+        strings: ["Login!"],
+    }).go();
+});
+document.addEventListener("DOMContentLoaded", function () {
+    new TypeIt("#element__register", {
+        strings: ["Register!"],
     }).go();
 });

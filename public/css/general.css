@@ -29,7 +29,7 @@ body {
   max-width: 1080px;
 }
 
-@media (min-width: 1180px) {
+@media (min-width: 1440px) {
   body {
     margin: 0 auto;
   }
